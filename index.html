@@ -5,17 +5,50 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Bootstrap Responsive Video</title>
   <link rel="stylesheet" href="css/styles.css">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
-<body class="container-fluid">
-  <h1 class="jumbotron">Responsive Youtube Videos Using Bootstrap</h1>
+<body class="container">
+  <div class="jumbotron">
+    <h1 class="visible-lg">Responsive Youtube Videos Using Bootstrap</h1>
+    <h2 class="visible-md">Responsive Youtube Videos Using Bootstrap</h2>
+    <h3 class="visible-sm">Responsive Youtube Videos Using Bootstrap</h3>
+    <h4 class="visible-xs">Responsive Youtube Videos Using Bootstrap</h4>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://youtube.com/embed/nMXNPGxX4Uw" frameborder="0"></iframe>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://youtube.com/embed/4dzdJNWBEpQ" frameborder="0"></iframe>
+      </div>
+    </div>
+    <div class="clearfix visible-sm"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://youtube.com/embed/9Nwn-TZfFUI" frameborder="0"></iframe>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://youtube.com/embed/zyHMy7ardZQ" frameborder="0"></iframe>
+      </div>
+    </div>
+    <div class="clearfix visible-sm"></div>
+  </div>
 
 </body>
 </html>
