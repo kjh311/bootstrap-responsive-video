@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap Responsive Video</title>
   <link rel="stylesheet" href="css/styles.css">
   <!-- Latest compiled and minified CSS -->
@@ -14,7 +15,7 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
-<body class="container">
+<body class="container main">
   <div class="jumbotron">
     <h1 class="visible-lg">Responsive Youtube Videos Using Bootstrap</h1>
     <h2 class="visible-md">Responsive Youtube Videos Using Bootstrap</h2>
@@ -24,12 +25,12 @@
 
   <div class="row">
     <div class="col-sm-6">
-      <div class="embed-responsive embed-responsive-16by9">
+      <div class="embed-responsive embed-responsive-4by3">
         <iframe src="https://youtube.com/embed/nMXNPGxX4Uw" frameborder="0"></iframe>
       </div>
     </div>
     <div class="col-sm-6">
-      <div class="embed-responsive embed-responsive-16by9">
+      <div class="embed-responsive embed-responsive-4by3">
         <iframe src="https://youtube.com/embed/4dzdJNWBEpQ" frameborder="0"></iframe>
       </div>
     </div>
@@ -38,17 +39,24 @@
 
   <div class="row">
     <div class="col-sm-6">
-      <div class="embed-responsive embed-responsive-16by9">
+      <div class="embed-responsive embed-responsive-4by3">
         <iframe src="https://youtube.com/embed/9Nwn-TZfFUI" frameborder="0"></iframe>
       </div>
     </div>
     <div class="col-sm-6">
-      <div class="embed-responsive embed-responsive-16by9">
+      <div class="embed-responsive embed-responsive-4by3">
         <iframe src="https://youtube.com/embed/zyHMy7ardZQ" frameborder="0"></iframe>
       </div>
     </div>
     <div class="clearfix visible-sm"></div>
   </div>
+
+  <footer class="navbar-default navbar-fixed-bottom">
+  <div class="container-fluid">
+    <span>Sticky Footer!!</span>
+  </div>
+</footer>
+
 
 </body>
 </html>
